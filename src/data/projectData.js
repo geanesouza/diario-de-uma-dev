@@ -75,7 +75,8 @@ const projects = [
             type: "list",
             value: [
               
-              "optei por conectar com vercel",              
+              "optei por conectar com vercel",   
+              "https://diario-de-uma-dev.vercel.app/"             
             ]
           }
         ],
