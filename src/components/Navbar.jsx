@@ -5,13 +5,12 @@ export default function Navbar() {
   return (
     <Flex
       as="nav"
-      bg="black"
+      bg="blackAlpha.800"
       color="teal.600"
       padding="1rem"
       justify="space-between"
       align="center"
-      wrap="wrap"
-     
+      wrap="wrap"    
     >
       <Heading as="h1" size="xl">
         Diário de uma Dev.
@@ -27,7 +26,7 @@ export default function Navbar() {
         <Link as={RouterLink} to="/contact" px={3} _hover={{ textDecoration: "underline" }}>
           Contato
         </Link>
-         <Link as={RouterLink} to="/" px={3} _hover={{ textDecoration: "underline" }}>
+         <Link as={RouterLink} to="/project" px={3} _hover={{ textDecoration: "underline" }}>
           Projetos
         </Link>
       </Box>

@@ -5,6 +5,11 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
 import theme from './theme.js' 
 
+// Import do Slick Carousel (ESTILO GLOBAL)
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
